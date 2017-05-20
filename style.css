@@ -1,0 +1,43 @@
+.dropdown-container {
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-title {
+	display: block;
+	background-color: #ccc;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid black;
+	padding: 2% 0;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: #ccc;
+}
+
+.dropdown-element {
+	display: block;
+	text-align: center;
+	padding: 2% 0;
+	border: 1px solid black;
+	border-top: none;
+}
+
+.active {
+	display: relative;
+	z-index: 999999999;
+}
+
+.main-content {
+	background-color: green;
+}
+
+.main-aside {
+	background-color: red;
+}
+
+.main-section {
+	background-color: blue;
+}
