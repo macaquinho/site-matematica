@@ -13,25 +13,36 @@
 }
 
 .dropdown-content {
+
 	display: none;
 	background-color: #ccc;
 }
 
 .dropdown-element {
+	z-index: 1;
+	display: block;
+	background-color: #ccc;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid black;
+	padding: 2% 0;
+	border-top: none;
+	position: absolute;
+}
+.element-title{
 	display: block;
 	text-align: center;
-	padding: 2% 0;
-	border: 1px solid black;
-	border-top: none;
+	background-color: #ccc;
+	
 }
 
 .active {
-	display: relative;
-	z-index: 999999999;
+	display: block;
+	
 }
 
 .main-content {
-	background-color: green;
+	background-color: gray;
 }
 
 .main-aside {
@@ -40,4 +51,8 @@
 
 .main-section {
 	background-color: blue;
+}
+
+.foot-banner{
+	background-color: gray;
 }
