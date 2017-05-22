@@ -1,6 +1,16 @@
+.body-color{
+	background-color: #EEE0E5;
+}
+
+.head-banner{
+	background-color: #CD6839;
+}
+
 .dropdown-container {
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 0;
+	background-color: #ccc;
+	border: 1px solid black;
 }
 
 .dropdown-title {
@@ -8,14 +18,11 @@
 	background-color: #ccc;
 	text-decoration: none;
 	text-align: center;
-	border: 1px solid black;
-	padding: 2% 0;
+	padding-top: 2%;
 }
 
 .dropdown-content {
-
 	display: none;
-	background-color: #ccc;
 }
 
 .dropdown-element {
@@ -25,7 +32,7 @@
 	text-decoration: none;
 	text-align: center;
 	border: 1px solid black;
-	padding: 2% 0;
+	padding-top: 2%;
 	border-top: none;
 	position: absolute;
 }
@@ -42,15 +49,16 @@
 }
 
 .main-content {
-	background-color: gray;
+	padding-left:10%;
+	padding-right: 10%;
 }
 
 .main-aside {
-	background-color: red;
+	background-color: #A52A2A;
 }
 
 .main-section {
-	background-color: blue;
+	background-color: #79CDCD;
 }
 
 .foot-banner{
