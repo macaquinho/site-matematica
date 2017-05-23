@@ -2,10 +2,10 @@ $(document).ready(function() {
 
 	$(".dropdown-container").hover(
 		function enter(){
-			$(this).children(".dropdown-content").addClass("active");
+			$(this).children(".dropdown-element").addClass("active");
 		},
 		function leave(){
-			$(this).children(".dropdown-content").removeClass("active");
+			$(this).children(".dropdown-element").removeClass("active");
 		}
 	);
 

@@ -1,0 +1,12 @@
+to commit:
+troquei dropdown content por dropdown element.
+puss border na section
+dei pad no footer
+joguei o style pra dentro da pasta css
+
+to do: 
+fazer footer
+fazer banner responsivo
+consertar margin dropdown
+fazer nav-bar collapse
+aprender a usar vantagens do bootstrap
