@@ -1,10 +1,7 @@
 .body-color{
-	background-color: #EEE0E5;
+	background-color: #FF8247;
 }
 
-.head-banner{
-	background-color: #CD6839;
-}
 
 .dropdown-container {
 	margin: 0;
@@ -26,7 +23,7 @@
 }
 
 .dropdown-element {
-	z-index: 1;
+	z-index: 2;
 	display: block;
 	background-color: #ccc;
 	text-decoration: none;
@@ -49,18 +46,36 @@
 }
 
 .main-content {
-	padding-left:10%;
-	padding-right: 10%;
+	padding-left:12%;
+	padding-right: 12%;
+}
+
+.main-box{
+	background-color: #79CDCD;
+	border: 2px solid;
+	border-top: 1px solid
+
 }
 
 .main-aside {
-	background-color: #A52A2A;
+	min-height: 300px !important;
+	/*background-color: #CD5C5C;*/
+}
+.main-section {
+	min-height: 300px !important;
+	text-align: justify;
+	border-left: 1px solid;
 }
 
-.main-section {
-	background-color: #79CDCD;
+.head-banner{
+	background-color: #CD6839;
+	border-bottom: 3px solid #8B4726;
 }
 
 .foot-banner{
-	background-color: gray;
+	background-color: black;
+	border-top: 3px solid gray;
+}
+.font-white{
+	color:white;
 }
